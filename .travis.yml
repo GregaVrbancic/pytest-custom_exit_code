@@ -31,9 +31,9 @@ matrix:
         env: TOX_ENV=py39-pytest5
       - python: 3.9
         env: TOX_ENV=py39-pytest6
-      - python: "3.10"
+      - python: "3.10.1"
         env: TOX_ENV=py310-pytest4
-      - python: "3.10"
+      - python: "3.10."
         env: TOX_ENV=py310-pytest5
       - python: "3.10.1"
         env: TOX_ENV=py310-pytest6
