@@ -23,6 +23,18 @@ matrix:
         env: TOX_ENV=py38-pytest5
       - python: 3.8
         env: TOX_ENV=py38-pytest6
+      - python: 3.9
+        env: TOX_ENV=py39-pytest4
+      - python: 3.9
+        env: TOX_ENV=py39-pytest5
+      - python: 3.9
+        env: TOX_ENV=py39-pytest6
+      - python: 3.10
+        env: TOX_ENV=py310-pytest4
+      - python: 3.10
+        env: TOX_ENV=py310-pytest5
+      - python: 3.10
+        env: TOX_ENV=py310-pytest6
       - python: pypy
         env: TOX_ENV=pypy-pytest4
 
