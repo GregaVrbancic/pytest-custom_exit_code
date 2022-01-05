@@ -1,5 +1,7 @@
 # Config file for automatic testing at travis-ci.org
 
+os: linux
+dist: focal
 sudo: false
 language: python
 
@@ -29,11 +31,11 @@ matrix:
         env: TOX_ENV=py39-pytest5
       - python: 3.9
         env: TOX_ENV=py39-pytest6
-      - python: 3.10
+      - python: "3.10"
         env: TOX_ENV=py310-pytest4
-      - python: 3.10
+      - python: "3.10"
         env: TOX_ENV=py310-pytest5
-      - python: 3.10
+      - python: "3.10"
         env: TOX_ENV=py310-pytest6
       - python: pypy
         env: TOX_ENV=pypy-pytest4
