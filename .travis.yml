@@ -37,8 +37,6 @@ matrix:
         env: TOX_ENV=py310-pytest5
       - python: "3.10.1"
         env: TOX_ENV=py310-pytest6
-      - python: pypy
-        env: TOX_ENV=pypy-pytest4
 
 install:
   - pip install tox
